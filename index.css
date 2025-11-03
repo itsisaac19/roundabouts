@@ -1,0 +1,265 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+.dark-background {
+    background: black;
+    padding-bottom: 150px;
+    display: grid;
+}
+
+.project-details {
+    margin: 50px 100px 0px;
+
+    font-family: 'BR Cobane', sans-serif;
+    font-size: 14px;
+    
+    color: white;
+
+    line-height: 1.5em;
+}
+
+.hero-section-wrapper {
+    margin: 100px 100px 20px;
+
+}
+.attention-title {
+    font-family: 'NCL Gastrub', sans-serif;
+    font-size: 80px;
+    color: white;
+}
+.hero-section {
+    margin: 0vh auto 0 auto;
+    position: relative;
+    display: grid;
+
+    width: min(100%, 2500px);
+}
+.hero-image {
+    display: grid;
+    position: relative;
+}
+.t-bone-image {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 80vh;
+}
+.t-bone-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.t-bone-hero-title {
+    font-family: 'NCL Gastrub', sans-serif;
+    color: white;
+    font-size: 80px;
+    line-height: 1.7em;
+}
+.hero-image-gradient {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: linear-gradient(180deg, #000000 0%, transparent 30%);
+}
+.t-bone-caption {
+    font-family: 'BR Cobane', sans-serif;
+    font-size: 14px;
+
+    color: #9d9d9d;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: #232323;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+
+    padding: 14px 6px;
+}
+
+span.large-starting {
+    font-size: 70px;
+    padding: 0 0em 0 0;
+}
+.introduction-section {
+    width: min(100vw, 1500px);
+    margin: 200px auto 0 auto;
+
+    display: grid;
+
+    padding: 0;
+}
+.introduction-content {
+    width: min(1000px, calc(100% - 120px));
+    margin: auto;
+    padding: 0 60px;
+
+    font-family: 'BR Cobane', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+
+    line-height: 1.5em;
+
+}
+
+.light-background {
+    background: white;
+    display: grid;
+    padding: 0 0 20vh 0;
+}
+.roundabout-drawing {
+    position: relative;
+}
+.solution-title {
+    position: absolute;
+    top: 48%;
+    left: 49%;
+    translate: -50% -50%;
+    font-family: 'NCL Gastrub', sans-serif;
+
+    font-size: 60px;
+    color: #000;
+    text-align: center;
+}
+
+.solution-caption {
+
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+    
+    background: #ffffff;
+
+    font-family: 'BR Cobane', sans-serif;
+    font-size: 14px;
+    color: #0e0e0e;
+
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: #d9d9d9;
+    text-underline-offset: 4px;
+
+    padding: 1.2em 1.2em;
+}
+.roundabout-svg {
+    width: 100%;
+    height: 90vh;
+}
+.roundabout-svg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.thesis-section {
+    padding: 150px 0;
+    border-top: 1px solid #e0e0e0;
+}
+.thesis-content {
+    margin: auto;
+    width: min(100vw, 1600px);
+    font-family: 'BR Cobane', sans-serif;
+}
+.thesis-label {
+    font-size: 16px;
+    letter-spacing: 2px;   
+    text-transform: uppercase;
+    color: #999999;
+}
+.thesis-content-inner {
+    margin: 0 50px;
+}
+.thesis-statement {
+    padding: 50px 0;
+    font-size: 64px;
+    letter-spacing: -0.05em;
+    line-height: 1.4em;
+}
+
+
+.conflict-section {
+    border-top: 1px solid #e0e0e0;
+    display: grid;
+    margin: 0;
+    height: 100vh;
+
+    grid-template-columns: 1fr 1fr;
+}
+.left-half {
+    background: #ededed;
+    padding: 100px;
+
+    min-width: 0;
+
+    display: grid;
+}
+.conflict-text {
+    min-width: 0;
+
+    display: grid;
+    grid-auto-flow: row;
+    height: max-content;
+}
+.conflict-text > div {
+    min-width: 0;
+}
+.right-half {
+    padding: 100px;
+}
+.conflict-title {
+    font-family: 'NCL Gastrub', sans-serif;
+
+    font-size: 60px;
+    color: #000;
+    text-align: left;
+    margin-bottom: 0.3em;
+}
+.conflict-subheading {
+    font-family: 'BR Cobane', sans-serif;
+
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    text-align: left;
+    margin: 1.5em 0 0.3em 0;
+}
+.conflict-description {
+    font-family: 'BR Cobane', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+
+    line-height: 1.5em;
+}
+.conflict-content {
+    display: grid;
+}
+.two-conflicts {
+    display: grid;
+    grid-template-rows: max-content;
+}
+.conflict-points-32 {
+    width: auto;
+}
+.conflict-points-32 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.cp-caption {
+    font-family: 'BR Cobane', sans-serif;
+    font-size: 14px;
+    color: #0e0e0e;
+
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: #d9d9d9;
+    text-underline-offset: 4px;
+    line-height: 1.5em;
+}
