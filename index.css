@@ -893,6 +893,10 @@ span.large-starting {
     margin-bottom: 0.5em;
 }
 
+.references .italic {
+    font-style: italic;
+}
+
 .references li {
     margin-bottom: 0.5em;
     font-family: 'BR Cobane', sans-serif;
